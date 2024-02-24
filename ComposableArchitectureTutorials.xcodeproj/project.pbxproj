@@ -15,6 +15,8 @@
 		D60DB2AB2B84C197000FC154 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = D60DB2AA2B84C197000FC154 /* ComposableArchitecture */; };
 		D60DB2CF2B862F42000FC154 /* ComposableArchitectureTutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB2CE2B862F42000FC154 /* ComposableArchitectureTutorialsTests.swift */; };
 		D60DB2D72B864259000FC154 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB2D62B864259000FC154 /* NumberFactClient.swift */; };
+		D60DB2DF2B8A028F000FC154 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB2DE2B8A028F000FC154 /* AppFeature.swift */; };
+		D60DB2E12B8A0849000FC154 /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB2E02B8A0849000FC154 /* AppFeatureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		D60DB2CC2B862F42000FC154 /* ComposableArchitectureTutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposableArchitectureTutorialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60DB2CE2B862F42000FC154 /* ComposableArchitectureTutorialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableArchitectureTutorialsTests.swift; sourceTree = "<group>"; };
 		D60DB2D62B864259000FC154 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
+		D60DB2DE2B8A028F000FC154 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		D60DB2E02B8A0849000FC154 /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				D60DB2972B84BFA5000FC154 /* ComposableArchitectureTutorialsApp.swift */,
 				D60DB2992B84BFA5000FC154 /* ContentView.swift */,
 				D60DB2A82B84C0EF000FC154 /* CounterFeature.swift */,
+				D60DB2DE2B8A028F000FC154 /* AppFeature.swift */,
 				D60DB2D62B864259000FC154 /* NumberFactClient.swift */,
 				D60DB29B2B84BFA6000FC154 /* Assets.xcassets */,
 				D60DB29D2B84BFA6000FC154 /* Preview Content */,
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D60DB2CE2B862F42000FC154 /* ComposableArchitectureTutorialsTests.swift */,
+				D60DB2E02B8A0849000FC154 /* AppFeatureTests.swift */,
 			);
 			path = ComposableArchitectureTutorialsTests;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60DB2A92B84C0EF000FC154 /* CounterFeature.swift in Sources */,
+				D60DB2DF2B8A028F000FC154 /* AppFeature.swift in Sources */,
 				D60DB29A2B84BFA5000FC154 /* ContentView.swift in Sources */,
 				D60DB2982B84BFA5000FC154 /* ComposableArchitectureTutorialsApp.swift in Sources */,
 				D60DB2D72B864259000FC154 /* NumberFactClient.swift in Sources */,
@@ -223,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60DB2E12B8A0849000FC154 /* AppFeatureTests.swift in Sources */,
 				D60DB2CF2B862F42000FC154 /* ComposableArchitectureTutorialsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
